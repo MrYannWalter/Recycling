@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+/* Debut du box1 */
+
+.box1 {
+    width: 100%;
+    background-image: url('../Images2/positive-dark-skinned-woman-demonstrates-her-plan-about-cleaning-earth-points-at-ligh-bulb-in-center-of-planet-wears-yellow-shirt-bothered-with-environmental-conservation.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding-left: 2%;
+    padding-top: 23%;
+    box-sizing: border-box;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #fff;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: -2px 0 10px #0000001a;
+}
+
+nav {
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin-right: 8%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.box1 li {
+    display: inline;
+    padding: 7px 15px;
+}
+
+.box1 a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: green;
+    text-transform: capitalize;
+}
+
+.box1 a:hover {
+    color: rgba(54, 194, 54, 0.897);
+    transition-duration: 0.5s;
+}
+
+.box1 .signUp,
+.logIn {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: green;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.box1 .signUp a,
+.logIn a{
+    color: #fff;
+}
+.intro1 h2 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-left: 9%;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+/* fin du box1 */
+
+/* Debut du box2 */
+.box2 {
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    padding: 5% 15%;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 150px;
+}
+
+.text-about{
+    width: 30%;
+    margin-right: 3%;
+}
+
+.text-about h3{
+  font-size: 4rem;
+}
+
+.box2 p {
+    font-size: 1.2em;
+}
+
+.intro2{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.about img {
+    width: 500px;
+    border-radius: 1px;
+}
+
+.box2 .notion1 h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    
+}
+.type{
+    display: flex;
+    margin-top: 7%;
+    box-sizing: border-box;
+}
+
+.type-image{
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 100%;
+}
+
+.type-image img{
+    height: 100%;
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 1px;
+}
+
+.text3 h4, .text2 h4{
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-family: 'Play', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.text3 div{
+    margin-top: 12%;
+    text-align: right;
+}
+
+.text2 div{
+    margin-top: 12%;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.box2 a:hover {
+    color: goldenrod;
+    transition-duration: 0.5s;
+}
+
+.container-process {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.image-process img{
+    width: 500px;
+}
+
+.text-process{
+  margin-left: 5%;
+  text-align: left;
+}
+
+.text-process h3{
+    text-align: left!important;
+}
+
+/* fin du box2 */
+/* Debut du box3 */
+.box3 {
+    background-color: rgba(230, 52, 88, 0.76);
+    width: 100%;
+}
+
+.box3 h3 {
+    padding-top: 5%;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.box3 p {
+    font-size: 1.2em;
+    width: 65%;
+    line-height: 1.8rem; 
+    margin: auto;
+    text-align: center;
+}
+
+.partners {
+    padding-top: 50px;
+    display: flex; 
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.partner img {
+    border-radius: 5px;
+    height: 100px;
+}
+
+.copyright{
+    padding: 25px 0; text-align: center;
+    text-transform: capitalize;
+}
+.copyright a{
+    text-decoration: none;
+    color: rgba(84, 85, 0, 0.849)
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Style/myActivities1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>New Activity</title>
+</head>
+
+<body>
+    <div class="fullPage">
+        <header class="nav">
+            <button class="main-page"><a href="homePage.html"><i class="fa-solid fa-bars"> Main Page</i></a></button>
+            <a href="" id="logOut">Log Out<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </header>
+        <section>
+            <div class="sideBar">
+                <div class="user">
+                    <div class="photo">
+                        <i class="fa-solid fa-circle-user"></i>
+                    </div>
+                    <div class="userId">
+                        <h3 id="userName">User name</h3>
+                        <p class="userName" id="userEmail">nclkdsnKD</p>
+                    </div>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="myActivities2.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                        <li class="active"><a href="myActivities1.html"><i class="fa-solid fa-plus"></i>New Activity</a> </li>
+                        <li><a href="myActivities3.html"><i class="fa-solid fa-recycle"></i>My Recycling</a> </li>
+                       
+                    </ul>
+                </div>
+            </div>
+            <div class="mainContent">
+                 <div class="title-page">
+                        <h3><a href="homePage.html" style="font-weight: normal; color:black">Home</a> > <a href="">New Activity</a></h3>
+                    </div>
+                <form id="formulaire">
+                    <h3>Begin a new activity</h3>
+                <div class="line">
+                    <input type="text" placeholder="Address" id="address" class="input" required>
+                </div>
+                <div class="line">
+                    <select name="Categories" id="categories" class="input" >
+                        <option value="paper">Papers</option>
+                        <option value="electronic">electronics</option>
+                        <option value="plastic">Plastics</option>
+                    </select>
+                </div>
+                <div class="line">
+                    <select name="Partners" id="partners"  class="input">
+                        <option value="Partner1">Partner1</option>
+                        <option value="Partner2">Partner2</option>
+                        <option value="Partner2">Partner3</option>
+                        <option value="Partner2">Partner4</option>
+                    </select>
+                </div>
+                <div class="line">
+                    <input type="number" class="input" value="0" placeholder="Quantity" id="quantity" required>
+                </div>
+                <div class="line">
+                    <p class="prix" id="prix">Total price :  <span class="montant" id="montant"> 0 </span> frs</p>
+                </div>
+                <div class="line">
+                    <button type="submit" id="btn" class="btn">Send Offer</button>
+                </div>
+            </form>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="Script/myActivities1.js"></script>
+</body>
+
+</html>
